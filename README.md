@@ -15,7 +15,7 @@ If you flash: Board: Navigate to Tools > Board > ESP32 Arduino and select 'ESP32
 
 ## #2 If by chance you are plugging it into your computer with a usb dongle can you try plugging it straight into the port?
 
-#3. [If using Brainflow read this step]
+## #3. [If using Brainflow read this step]
 
 I'm assuming you are running these Python test scripts with the brainflow api. Did you follow the build instructions here? (A.1 and A.2) https://www.cerelog.com/eeg_researchers_guide.html
 The might be a bit different on Linux 
