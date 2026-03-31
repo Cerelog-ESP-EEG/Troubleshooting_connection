@@ -7,7 +7,10 @@
 ->if that still doesn't work you can try to reflash firmware with the arduino ide with this script 
 https://github.com/Cerelog-ESP-EEG/ESP-EEG/blob/main/firmware/esp32_firmware.ino
 Let me know if this gives you an issue connecting to the board, 
-If you flash: Board: Navigate to Tools > Board > ESP32 Arduino and select 'ESP32 WROOM DA Module'. Port: Navigate to Tools > Port and select the COM port corresponding to your Cerelog board.
+
+If you flash: Board: Navigate to Tools > Board > ESP32 Arduino and 
+-> select 'ESP32 DEV Module' for V1.3 Boards and for V2 boards select ESP32 S3 Dev Module The other options may give you a hard time 
+Port: Navigate to Tools > Port and select the COM port corresponding to your Cerelog board.
 
 -> Also, your computer might be missing the driver for usb. You need the driver for CH340C IC.[https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers ](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all#drivers-if-you-need-them) Note: V2 devices will have this IC removed so you can skip this step if your PCB says V2. If it says V1.3 you will need this if you computer can't connect
 
