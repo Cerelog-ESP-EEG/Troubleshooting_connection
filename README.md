@@ -32,6 +32,10 @@ https://github.com/shakimiansky/Shared_brainflow-cerelog/blob/master/python_pack
 
 Do you have access to a windows pc or Mac? Linux often has random bugs. Make sure you download the CH340 driver.  On Linux the in-kernel drivers for it appear to have a bug that affects switching baud rates, so after compiling and installing the manufacturer's drivers it should fix this 
 
+**ALSO, you may need this Linux driver: 
+If it still doesnt work try out the CH341SER driver (this is seperate from the above linked CH340C driver)...this usually works better for LINUX and can often fix issues with the board not connecting, https://www.wch-ic.com/downloads/CH341SER_EXE.html** 
+**Note: If you decide to use the CH341SER driver, you may need to hardcode the port names in your Brainflow testscripts and LSL linking script: [Read here:]()** 
+
 ## #6. [Try this if still stuck]
 
 You can try to connect to the standalone Python test script here. It's deprecated but should still be able to connect as a debug tool. https://github.com/shakimiansky/Shared_Cerlog_ESP_EEG_BCI.git
