@@ -14,6 +14,10 @@ Port: Navigate to Tools > Port and select the COM port corresponding to your Cer
 
 -> Also, your computer might be missing the driver for usb. You need the driver for CH340C IC.[https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers ](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all#drivers-if-you-need-them) Note: V2 devices will have this IC removed so you can skip this step if your PCB says V2. If it says V1.3 you will need this if you computer can't connect
 
+**ALSO, you may need this other  driver: 
+If it still doesnt work try out the CH341SER driver (this is seperate from the above linked CH340C driver)...this usually works better for LINUX and can often fix issues with the board not connecting, https://www.wch-ic.com/downloads/CH341SER_EXE.html** 
+**Note: If you decide to use the CH341SER driver, you may need to hardcode the port names in your Brainflow testscripts and LSL linking script: [Read here:](https://github.com/Cerelog-ESP-EEG/Troubleshooting_connection/blob/main/manual_connect/readme.md)** 
+
 
 
 ## #2 If by chance you are plugging it into your computer with a usb dongle can you try plugging it straight into the port?
