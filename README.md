@@ -28,11 +28,11 @@ also
 Try to run this brainflow test I have. Its usually very responsive and plots all the data. 
 https://github.com/shakimiansky/Shared_brainflow-cerelog/blob/master/python_package/cerelog_tests/filtered_plot.py
 
-## #5. [For Lunux users]
+## #5. [For Lunux and Raspberry PI users]
 
 Do you have access to a windows pc or Mac? Linux often has random bugs. Make sure you download the CH340 driver.  On Linux the in-kernel drivers for it appear to have a bug that affects switching baud rates, so after compiling and installing the manufacturer's drivers it should fix this 
 
-**ALSO, you may need this Linux driver: 
+**ALSO, you may need this other Linux driver: 
 If it still doesnt work try out the CH341SER driver (this is seperate from the above linked CH340C driver)...this usually works better for LINUX and can often fix issues with the board not connecting, https://www.wch-ic.com/downloads/CH341SER_EXE.html** 
 **Note: If you decide to use the CH341SER driver, you may need to hardcode the port names in your Brainflow testscripts and LSL linking script: [Read here:]()** 
 
