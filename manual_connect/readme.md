@@ -3,7 +3,6 @@
   - Windows: Open Device Manager, expand "Ports (COM & LPT)", and note the COM port (e.g., COM3, COM5).
   - macOS: Run ls /dev/tty.usb* in Terminal (e.g., /dev/tty.usbserial-1420).
   - Linux: Run ls /dev/ttyUSB* in Terminal (e.g., /dev/ttyUSB0).
-  - 
 ## To hardcode port names in Brainflow: 
 Inside the test script of your choice, for example lets say you are running filtered_plot.py 
 
@@ -70,7 +69,4 @@ By default, the script auto-detects the Cerelog board by scanning all available 
   │ Linux   │ "/dev/ttyUSB0"            │
   └─────────┴───────────────────────────┘
 
-  Summary of what changed
 
-  The original function scans all serial ports, filters by USB vendor/product ID, and tries each one. The hardcoded version skips all detection logic and connects directly to the specified port, which is useful when the auto-detection picks the wrong device or when running in an
-  environment with a known, fixed port assignment.
