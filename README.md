@@ -54,3 +54,9 @@ Method B: Legacy Python Web Plotter (Deprecated)
 ## #7. [Try if the above works too (Hardcoding Port names)]
 Some computers assign strange port names to the device so you will need to hardcode the exact name into the test script:
  **[Read here:](https://github.com/Cerelog-ESP-EEG/Troubleshooting_connection/blob/main/manual_connect/readme.md)**
+
+## #8. Consider reflashing the firmware: 
+**[Read here:](https://github.com/Cerelog-ESP-EEG/ESP-EEG/tree/main/firmware)
+ 
+
+
