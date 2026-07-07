@@ -40,6 +40,9 @@ Do you have access to a windows pc or Mac? Linux often has random bugs. Make sur
 If it still doesnt work try out the CH341SER driver (this is seperate from the above linked CH340C driver)...this usually works better for LINUX and can often fix issues with the board not connecting, https://www.wch-ic.com/downloads/CH341SER_EXE.html** 
 **Note: If you decide to use the CH341SER driver, you may need to hardcode the port names in your Brainflow testscripts and LSL linking script: [Read here:](https://github.com/Cerelog-ESP-EEG/Troubleshooting_connection/blob/main/manual_connect/readme.md)** 
 
+
+**Full Raspberry PI Driver Setup Guide [Read Here:](https://github.com/Cerelog-ESP-EEG/ESP-EEG/blob/main/Instructions/subguides/raspberrypi/readme.md)** 
+
 ## #6. [Try this if still stuck]
 
 You can try to connect to the standalone Python test script here. It's deprecated but should still be able to connect as a debug tool. https://github.com/shakimiansky/Shared_Cerlog_ESP_EEG_BCI.git
