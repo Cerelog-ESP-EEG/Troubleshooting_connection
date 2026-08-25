@@ -1,5 +1,10 @@
 # Read through this guide if you have an issue connection with device
 
+
+## First of all, are you using the software I gave you to run the board with?
+Did you Claude code up something without looking at it first? I gave a very helpful LSL connector script. I advise to least feeding it into Claude code to help you get started faster
+But most important is if you write your own script at least remember to do this: wait 8 seconds on boot and you may need to do a DTR pulse (kinda optional but might force you to keep needing to power on and off the board to force boot after a new power up)
+
 ## #1. Do you see an LED light up on the pcb a few seconds after plugging it into your usb port? This is a green led that is labeled 'GPIO 17 DEV LED'
 
 ->if it doesn't turn on, try to unplug and plug back in the pcb as well as flick the power switch. Try a few variations of this. Each time, wait a few seconds to see if the LED turns on. 
